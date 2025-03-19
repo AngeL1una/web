@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Hero: React.FC = () => {
     return (
@@ -12,16 +13,18 @@ const Hero: React.FC = () => {
                 <p className="mt-4 text-gray-700 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
                     Ofrecemos lo mejor en papelería, desde cuadernos hasta lápices, pasando por papel y otros productos.
                 </p>
-                
+
                 {/* Cita */}
                 <blockquote className="border-l-4 pl-4 text-gray-700 italic mt-6 text-sm sm:text-base md:text-lg">
                     &quot;La calidad es nuestra prioridad, siempre buscamos ofrecer lo mejor a nuestros clientes.&quot;
                 </blockquote>
-                
+
                 {/* Botón */}
-                <button className="mt-6 px-6 py-3 bg-violet-400 text-white text-lg rounded-lg shadow-lg hover:bg-violet-700 transition">
-                    Conócenos
-                </button>
+                <Link href="/ruta-de-destino">
+                    <button className="mt-6 px-6 py-3 bg-violet-400 text-white text-lg rounded-lg shadow-lg hover:bg-violet-700 transition">
+                        Conócenos
+                    </button>
+                </Link>
             </div>
 
             {/* Contenedor de imagen */}
