@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Link from 'next/link';
+
 
 const Hero: React.FC = () => {
     return (
@@ -20,11 +20,11 @@ const Hero: React.FC = () => {
                 </blockquote>
 
                 {/* Botón */}
-                <Link href="https://github.com/AngeL1una">
+                <a href="https://tusitio.com/about">
                     <button className="mt-6 px-6 py-3 bg-violet-400 text-white text-lg rounded-lg shadow-lg hover:bg-violet-700 transition">
                         Conócenos
                     </button>
-                </Link>
+                </a>
             </div>
 
             {/* Contenedor de imagen */}
