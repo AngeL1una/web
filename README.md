@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Aquí tienes una descripción técnica y breve de cada uno de estos elementos HTML:
 
-## Getting Started
+---
 
-First, run the development server:
+### **Header**
+El elemento `<header>` se utiliza para definir el encabezado de una sección o de toda la página. Suele contener elementos como logotipos, menús de navegación o títulos.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **Body**
+El elemento `<body>` es el contenedor principal del contenido de una página web. Todo lo que se muestra en el navegador (texto, imágenes, enlaces, etc.) debe estar dentro de este elemento.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **Footer**
+El elemento `<footer>` define el pie de página de una sección o de toda la página. Normalmente incluye información como derechos de autor, enlaces de contacto o enlaces relacionados.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+### **Encabezados**
+Los elementos `<h1>` a `<h6>` se utilizan para definir títulos y subtítulos en una página web. `<h1>` es el más importante y `<h6>` el menos importante. Ayudan a estructurar el contenido y mejorar la accesibilidad.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### **Párrafos**
+El elemento `<p>` se utiliza para definir párrafos de texto. Es el bloque básico para organizar contenido textual en una página web.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### **Citas**
+Los elementos `<blockquote>` y `<q>` se utilizan para citar texto de otras fuentes. `<blockquote>` es para citas largas y `<q>` para citas cortas dentro de un párrafo.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+### **Vinculos**
+El elemento `<a>` se utiliza para crear hipervínculos. Permite a los usuarios navegar entre páginas o secciones mediante el atributo `href`, que define la URL de destino.
+
+---
+
+### **Listas**
+Los elementos `<ul>`, `<ol>` y `<li>` se utilizan para crear listas. `<ul>` define listas no ordenadas, `<ol>` listas ordenadas y `<li>` los elementos individuales de la lista.
+
+---
+
+### **Tablas**
+Los elementos `<table>`, `<tr>`, `<th>`, y `<td>` se utilizan para crear tablas. `<table>` define la tabla, `<tr>` las filas, `<th>` las celdas de encabezado y `<td>` las celdas de datos.
+
+---
+
+### **Formularios**
+El elemento `<form>` se utiliza para crear formularios que permiten a los usuarios enviar datos. Incluye elementos como `<input>`, `<textarea>`, `<button>`, y `<select>` para recopilar información.
+
+---
+
+### **Imágenes**
+El elemento `<img>` se utiliza para insertar imágenes en una página web. El atributo `src` especifica la ruta de la imagen, y `alt` proporciona un texto alternativo para accesibilidad.
+
+---
+
+### **Div**
+El elemento `<div>` es un contenedor genérico que se utiliza para agrupar otros elementos y aplicar estilos o scripts. No tiene un significado semántico específico.
+
+---
+
+### **Span**
+El elemento `<span>` es un contenedor en línea que se utiliza para aplicar estilos o scripts a una parte específica de un texto. Al igual que `<div>`, no tiene un significado semántico específico.
+
+---
+
+Estos elementos son fundamentales para estructurar y dar formato al contenido de una página web, permitiendo una organización clara y accesible.
