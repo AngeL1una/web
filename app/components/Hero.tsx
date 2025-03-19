@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
                 </blockquote>
 
                 {/* Botón */}
-                <Link href="/ruta-de-destino">
+                <Link href="https://github.com/AngeL1una">
                     <button className="mt-6 px-6 py-3 bg-violet-400 text-white text-lg rounded-lg shadow-lg hover:bg-violet-700 transition">
                         Conócenos
                     </button>
