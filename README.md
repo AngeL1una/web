@@ -1,6 +1,4 @@
-Aquí tienes una descripción técnica y breve de cada uno de estos elementos HTML:
-
----
+## Elementos HTML y su uso
 
 ### **Header**
 El elemento `<header>` se utiliza para definir el encabezado de una sección o de toda la página. Suele contener elementos como logotipos, menús de navegación o títulos.
